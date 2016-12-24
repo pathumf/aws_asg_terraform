@@ -1,0 +1,6 @@
+ - hosts: dev
+   remote_user: ubuntu
+   sudo: yes
+
+   roles:
+   - role: AB_deployment

@@ -1,0 +1,10 @@
+- name: download_package
+  get_url:
+   url: https://s3-ap-southeast-2.amazonaws.com/proitzencloudcode/{{ packagename }}
+   dest: /tmp/{{ packagename }}
+
+- name: install_package
+  command: dpkg -i /tmp/{{ packagename }}
+
+- name: restart_app
+  service: name=app state=restarted
