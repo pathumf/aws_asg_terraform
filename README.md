@@ -19,7 +19,7 @@ instances when they are actually needed and terminating them when they aren't ne
 
 # Architecture
 
-![alt tag](https://s3-ap-southeast-2.amazonaws.com/proitzencloudcode/Middleware+autoscalingArchitecture.png)
+![alt tag](https://cloudcraft.co/view/ae9f9864-77b4-4bc8-b285-e9c8ef85fc4d?key=XQIZN-8AMpdpiaskk-pm4g)
 
 This is fully end to end automated system and fully scalable and can accommodate 99.99 % uptime. Used Terraform as a Iaac and Ansible and Packer for Blue-Green deployment.Used Jenkins as for CI/CD automation and enabled user interaction endpoint.
 
