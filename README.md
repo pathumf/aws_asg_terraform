@@ -17,4 +17,10 @@ Auto Scaling can dynamically increase and decrease capacity as
 needed. Because we pay for the EC2 instances that we use, we save money by launching
 instances when they are actually needed and terminating them when they aren't needed.
 
+# Architecture
+
+![alt tag](https://s3-ap-southeast-2.amazonaws.com/proitzencloudcode/Middleware+autoscalingArchitecture.png)
+
+This is fully end to end automated system and fully scalable and can accommodate 99.99 % uptime. Used Terraform as a Iaac and Ansible and Packer for Blue-Green deployment.Used Jenkins as for CI/CD automation and enabled user interaction endpoint.
+
 
