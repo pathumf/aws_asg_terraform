@@ -24,7 +24,7 @@
 				"sudo apt-get install oracle-java8-set-default -y",
 				"sudo apt-get install mysql-client-core-5.5 -y",
                                 "cd /tmp",
- 				"wget https://s3-ap-southeast-2.amazonaws.com/proitzencloudcode/\"{{user `packagename`}}\"",
+ 				"wget https://s3-ap-southeast-2.amazonaws.com/<<>>/\"{{user `packagename`}}\"",
  				"sudo wget -O /tmp/awslogs-agent-setup.py http://s3.amazonaws.com/aws-cloudwatch/downloads/latest/awslogs-agent-setup.py",
 				"sudo chmod 775 /tmp/awslogs-agent-setup.py",
 				"sudo mkdir -p /var/awslogs/etc/"
