@@ -1,6 +1,6 @@
 - name: download_package
   get_url:
-   url: https://s3-ap-southeast-2.amazonaws.com/proitzencloudcode/{{ packagename }}
+   url: https://s3-ap-southeast-2.amazonaws.com/<>/{{ packagename }}
    dest: /tmp/{{ packagename }}
 
 - name: install_package
