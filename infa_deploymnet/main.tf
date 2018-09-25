@@ -3,5 +3,5 @@ module "green-deployment" {
   lg_name = "green-lg"
   asg_name = "green-asg"
   ag_target = "green-target"
-  account_id="727928824050"
+  account_id=""
 }
